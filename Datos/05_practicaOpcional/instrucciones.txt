@@ -1,0 +1,26 @@
+Por favor, lean con atención las siguientes instrucciones.
+
+En las carpetas de Teams pueden encontrar varios archivos, cada uno de ellos tiene 4 columnas:
+- La primera columna corresponde al tiempo en segundos.
+- Las siguientes 3 columnas corresponden a las coordenadas x,y,z en milímetros con respecto al sistema de referencia del robot. Estos valores no son las coordenadas del extremo de la pinza sino las coordenadas del punto A del esquema.
+Observen que en todos los archivos de texto la coordenada x es la misma, así como los valores iniciales y finales de la coordenada y.
+
+Es muy importante tener en cuenta que la coordenada 'y' y la velocidad 'Vy' no son independientes. Una vez se escoja una, la otra queda determinada.
+
+Me deben enviar un archivo de texto para el lanzamiento horizontal (no se hará el lanzamiento con un ángulo inicial diferente de cero). El archivo debe tener solo 3 líneas como se indica a continuación.:
+P1x,P1y,P1z
+P2x,P2y,P2z
+t_open
+
+- La primera línea corresponde a las coordenadas del punto A en la primera posición  de la trayectoria del robot.
+- La segunda línea corresponde a las coordenadas del punto A en la segunda  posición de la trayectoria del robot.
+- t_open es el tiempo en milisegundos en el que se debe abrir la pinza medido desde el comienzo de la trayectoria (en clase dije que era el tiempo que falta para llegar al final de la trayectoria, sigan la indicación de este mensaje por favor).
+
+Nomenclatura del esquema (no está a escala)
+Ze: altura del punto A con respecto al sistema de referencia. Corresponde a la última columna en cualquiera de las tablas.
+yt: coordenada y del blanco (192.1 mm)
+Zt: coordenada z del blanco (-49.7 mm)
+
+Con los datos de y0, Vy y z se pueden calcular las coordenadas teóricas del punto de impacto. Verifiquen que estos valores coinciden con las coordenadas del blanco y también me envían por el chat una imagen de los cálculos realizados (puede ser a mano).
+
+Trataré de estar en Teams el lunes de 17:00-18:00 por si hay alguna inquietud de última hora.
